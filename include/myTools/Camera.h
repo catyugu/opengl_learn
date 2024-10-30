@@ -10,7 +10,7 @@
 class Camera {
 public:
         explicit Camera(
-                unsigned int width = 800, unsigned int height = 600,
+                int width = 800, int height = 600,
                 glm::vec3 position = glm::vec3(0.0f, 0.0f, 3.0f),
                 glm::vec3 up = glm::vec3(0.0f, 1.0f, 0.0f),
                 glm::vec3 yaw = glm::vec3(0.0f, 0.0f, 0.0f)

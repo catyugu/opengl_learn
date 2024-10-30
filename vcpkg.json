@@ -1,0 +1,25 @@
+{
+  "dependencies" : [ {
+    "name" : "glslang",
+    "version>=" : "15.0.0"
+  }, {
+    "name" : "glm",
+    "version>=" : "1.0.1#3"
+  }, {
+    "name" : "glew",
+    "version>=" : "2.2.0#4"
+  }, {
+    "name" : "soil",
+    "version>=" : "2021-04-22#2"
+  }, {
+    "name" : "opengl",
+    "version>=" : "2022-12-04#3"
+  }, {
+    "name" : "opengl-registry",
+    "version>=" : "2024-02-10#1"
+  }, {
+    "name" : "glfw3",
+    "version>=" : "3.4#1"
+  } ],
+  "builtin-baseline" : "ea189a0a823a17dca94f6af61d09429f2f45502c"
+}

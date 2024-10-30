@@ -1,0 +1,19 @@
+# ninja log v5
+0	526	7519804750411143	CMakeFiles/opengl_learn.dir/src/main.cpp.obj	4d632cd84b983905
+528	2004	7519804754468059	opengl_learn.exe	7d1f18d6db42f0ef
+1	642	7519805296394935	CMakeFiles/opengl_learn.dir/src/main.cpp.obj	4d632cd84b983905
+643	2462	7519805298362677	opengl_learn.exe	7d1f18d6db42f0ef
+1	563	7519806005286285	CMakeFiles/opengl_learn.dir/src/main.cpp.obj	4d632cd84b983905
+564	1927	7519806007567250	opengl_learn.exe	7d1f18d6db42f0ef
+1	487	7519807979225278	CMakeFiles/opengl_learn.dir/src/main.cpp.obj	4d632cd84b983905
+488	1862	7519807982522669	opengl_learn.exe	7d1f18d6db42f0ef
+1	577	7519808158668445	CMakeFiles/opengl_learn.dir/src/main.cpp.obj	4d632cd84b983905
+578	1772	7519808159997422	opengl_learn.exe	7d1f18d6db42f0ef
+2	488	7519808242659559	CMakeFiles/opengl_learn.dir/src/main.cpp.obj	4d632cd84b983905
+488	1757	7519808244625085	opengl_learn.exe	7d1f18d6db42f0ef
+1	473	7519808593580250	CMakeFiles/opengl_learn.dir/src/main.cpp.obj	4d632cd84b983905
+473	1636	7519808594890136	opengl_learn.exe	7d1f18d6db42f0ef
+1	486	7519808782990392	CMakeFiles/opengl_learn.dir/src/main.cpp.obj	4d632cd84b983905
+487	1722	7519808784828835	opengl_learn.exe	7d1f18d6db42f0ef
+1	488	7519808892231243	CMakeFiles/opengl_learn.dir/src/main.cpp.obj	4d632cd84b983905
+488	1676	7519808893555680	opengl_learn.exe	7d1f18d6db42f0ef

@@ -1,0 +1,118 @@
+Detecting compiler hash for triplet x64-windows...
+-- Automatically setting %HTTP(S)_PROXY% environment variables to "127.0.0.1:7890".
+Compiler found: D:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.40.33807/bin/Hostx64/x64/cl.exe
+The following packages will be built and installed:
+  * egl-registry:x64-windows@2024-01-25 -- E:\scoop_files\apps\vcpkg\current\buildtrees\versioning_\versions\egl-registry\d883db43133dd223c4ffdbef4193943f6784d43a
+    glew:x64-windows@2.2.0#4 -- E:\scoop_files\apps\vcpkg\current\buildtrees\versioning_\versions\glew\bf42d73479dcd0f239b71dbed4d0d3af22efb294
+    glfw3:x64-windows@3.4#1 -- E:\scoop_files\apps\vcpkg\current\buildtrees\versioning_\versions\glfw3\d4bbd4f27c2ca619f57778985120cddcedadb1cc
+    glm:x64-windows@1.0.1#3 -- E:\scoop_files\apps\vcpkg\current\buildtrees\versioning_\versions\glm\f8b09027afe97c717e95bd81d1d4f37c057d1c78
+    glslang:x64-windows@15.0.0 -- E:\scoop_files\apps\vcpkg\current\buildtrees\versioning_\versions\glslang\238083db89713c6762c7f785176b28183154deed
+    opengl:x64-windows@2022-12-04#3 -- E:\scoop_files\apps\vcpkg\current\buildtrees\versioning_\versions\opengl\c3ae71738f88449ebcd781cef60d9a253fa091d4
+    opengl-registry:x64-windows@2024-02-10#1 -- E:\scoop_files\apps\vcpkg\current\buildtrees\versioning_\versions\opengl-registry\22f7aa58ee78c9f0db904b6251e9265f2be26f9d
+    soil:x64-windows@2021-04-22#2 -- E:\scoop_files\apps\vcpkg\current\buildtrees\versioning_\versions\soil\71412fe0daffe8a8cd06f6d094544291f4ad5e02
+  * vcpkg-cmake:x64-windows@2024-04-23 -- E:\scoop_files\apps\vcpkg\current\buildtrees\versioning_\versions\vcpkg-cmake\e74aa1e8f93278a8e71372f1fa08c3df420eb840
+  * vcpkg-cmake-config:x64-windows@2024-05-23 -- E:\scoop_files\apps\vcpkg\current\buildtrees\versioning_\versions\vcpkg-cmake-config\97a63e4bc1a17422ffe4eff71da53b4b561a7841
+Additional packages (*) will be modified to complete this operation.
+Restored 10 package(s) from C:\Users\HUAWEI\AppData\Local\vcpkg\archives in 647 ms. Use --debug to see more details.
+Installing 1/10 vcpkg-cmake-config:x64-windows@2024-05-23...
+Elapsed time to handle vcpkg-cmake-config:x64-windows: 5.19 ms
+vcpkg-cmake-config:x64-windows package ABI: 55870ed399990c67a6a299e1d81679ac5585fbd757e09d1428c87efaa1356b10
+Installing 2/10 vcpkg-cmake:x64-windows@2024-04-23...
+Elapsed time to handle vcpkg-cmake:x64-windows: 5.23 ms
+vcpkg-cmake:x64-windows package ABI: df224c73fd05ca5675beb7b2550dda987dcc276a1bb5b658af4cc7e9cb59067e
+Installing 3/10 egl-registry:x64-windows@2024-01-25...
+Elapsed time to handle egl-registry:x64-windows: 6.99 ms
+egl-registry:x64-windows package ABI: 46c06779d2757e942592be7080a1979b6013a9acac60964517a8c672fee59a55
+Installing 4/10 opengl-registry:x64-windows@2024-02-10#1...
+Elapsed time to handle opengl-registry:x64-windows: 16.4 ms
+opengl-registry:x64-windows package ABI: 36d68fed3ec2b67475eff3683fe13d9a3c1c3b113acb67ceaff485526427d672
+Installing 5/10 opengl:x64-windows@2022-12-04#3...
+Elapsed time to handle opengl:x64-windows: 10.1 ms
+opengl:x64-windows package ABI: 458a4f9b673b3c3944aab04d37cdf0e2e0cdc8841321a033e1cfefbb373a1c71
+Installing 6/10 glew:x64-windows@2.2.0#4...
+Elapsed time to handle glew:x64-windows: 12.3 ms
+glew:x64-windows package ABI: c6de48a615c23dd12460572322dd6bbf88b9cb8f8b44dcfb2f5412dd208ad634
+Installing 7/10 glfw3:x64-windows@3.4#1...
+Elapsed time to handle glfw3:x64-windows: 11.8 ms
+glfw3:x64-windows package ABI: f97b213976b57841e562e98743e40c9653eef2e598ef9f23e55e1e9eae39d3a9
+Installing 8/10 glm:x64-windows@1.0.1#3...
+Elapsed time to handle glm:x64-windows: 145 ms
+glm:x64-windows package ABI: 1fd8ccfceeb0128dcd248859b30583413ab281fb177bc1067db696e2281bc1db
+Installing 9/10 glslang:x64-windows@15.0.0...
+Elapsed time to handle glslang:x64-windows: 16.4 ms
+glslang:x64-windows package ABI: cc66416db0d79da6b242d33c2b24019f6cc17df51b0efbec619398935e4b7fe3
+Installing 10/10 soil:x64-windows@2021-04-22#2...
+Elapsed time to handle soil:x64-windows: 7.72 ms
+soil:x64-windows package ABI: 73ce2c29d92149a19e9fba556d1228b0affdd2dfc2dd494dc45d292d11b5c2af
+Total install time: 237 ms
+opengl-registry is header-only and can be used from CMake via:
+
+  find_path(OPENGL_REGISTRY_INCLUDE_DIRS "GL/glcorearb.h")
+  target_include_directories(main PRIVATE ${OPENGL_REGISTRY_INCLUDE_DIRS})
+
+opengl-registry provides pkg-config modules:
+
+  # Khronos OpenGL registry
+  khronos-opengl-registry
+
+The package opengl is compatible with built-in CMake targets via CMake v3.7 and prior syntax
+
+    find_package(OpenGL REQUIRED)
+    target_link_libraries(main PRIVATE ${OPENGL_LIBRARIES})
+    target_include_directories(main PRIVATE ${OPENGL_INCLUDE_DIR})
+
+and the CMake v3.8 and beyond imported target syntax
+
+    find_package(OpenGL REQUIRED)
+    target_link_libraries(main PRIVATE OpenGL::GL)
+
+introduction of various components
+
+    find_package(OpenGL REQUIRED COMPONENTS GL      # v3.8
+                                            GLU     # v3.8
+                                            GLX     # v3.10
+                                            EGL     # v3.10
+                                            OpenGL) # v3.10
+
+The OpenGL SDK is highly platform dependent and is usually an OS component. It's not realistic to build from source for every platform.
+
+    WINDOWS: is part of the Windows SDK which this package installs.
+    LINUX: the SDK may be installed from your distro's repo or from 3rd parties manually. There are too many to count.
+    APPLE: consult your distribution vendor on the state of OpenGL support: https://support.apple.com/en-us/HT202823
+
+The package glew is compatible with built-in CMake targets:
+
+    find_package(GLEW REQUIRED)
+    target_link_libraries(main PRIVATE GLEW::GLEW)
+
+glfw3 provides CMake targets:
+
+  # this is heuristically generated, and may not be correct
+  find_package(glfw3 CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE glfw)
+
+glfw3 provides pkg-config modules:
+
+  # A multi-platform library for OpenGL, window and input
+  glfw3
+
+The package glm provides CMake targets:
+
+    find_package(glm CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE glm::glm)
+
+    # Or use the header-only version
+    find_package(glm CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE glm::glm-header-only)
+
+glslang provides CMake targets:
+
+    find_package(glslang CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE glslang::glslang glslang::glslang-default-resource-limits glslang::SPIRV glslang::SPVRemapper)
+
+soil provides CMake targets:
+
+  # this is heuristically generated, and may not be correct
+  find_package(soil CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE soil)
+
